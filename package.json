@@ -1,0 +1,25 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirhBeigi/algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmirhBeigi/algorithms/issues"
+  },
+  "homepage": "https://github.com/AmirhBeigi/algorithms#readme",
+  "devDependencies": {
+    "vitest": "^0.25.2"
+  }
+}
