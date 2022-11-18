@@ -2,13 +2,13 @@ import { reduce } from "./index";
 import { describe, it, expect } from "vitest";
 
 describe("filter", () => {
-  it("should add all the members of the array together and return the number 10", () => {
+  it("number of array", () => {
     expect(
       reduce([1, 2, 3, 4], (previousValue, currentValue) => previousValue + currentValue, 0)
     ).toEqual(10);
   });
 
-  it("should add the id of all members of the array together and add 5 and return the number 8.", () => {
+  it("array of object", () => {
     const array = [
       {
         id: 1,
